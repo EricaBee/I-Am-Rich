@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="I_Am_Rich" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="diamond" translatesAutoresizingMaskIntoConstraints="NO" id="PA5-uC-fc7">
+                                <rect key="frame" x="53" y="250" width="270" height="270"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="J6p-Ws-y5p"/>
+                                    <constraint firstAttribute="height" constant="270" id="KpA-s2-qbs"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="I Am Rich" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYT-55-Wl9">
+                                <rect key="frame" x="103" y="91" width="168" height="72"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="40"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.20000000000000001" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="PA5-uC-fc7" firstAttribute="centerY" secondItem="ecC-YT-64q" secondAttribute="centerY" id="MtX-4x-PXV"/>
+                            <constraint firstItem="cYT-55-Wl9" firstAttribute="centerX" secondItem="ecC-YT-64q" secondAttribute="centerX" id="nus-UF-F9S"/>
+                            <constraint firstItem="PA5-uC-fc7" firstAttribute="centerX" secondItem="ecC-YT-64q" secondAttribute="centerX" id="qMW-0v-6Jd"/>
+                            <constraint firstItem="cYT-55-Wl9" firstAttribute="top" secondItem="ecC-YT-64q" secondAttribute="top" constant="71" id="yvT-Cl-0Gw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ecC-YT-64q"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="diamond" width="343" height="251"/>
+    </resources>
+</document>
